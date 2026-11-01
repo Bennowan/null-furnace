@@ -1,0 +1,9 @@
+displayName: "Flux Protocol Selftest"
+name: "flux-selftest"
+author: "Bennowan"
+main: "fluxselftest.SelfTestMod"
+description: "Nur fuer Entwicklung: Headless-Integrationstest fuer Flux Protocol."
+version: 0.1
+minGameVersion: 160.7
+java: true
+dependencies: ["flux-protocol"]

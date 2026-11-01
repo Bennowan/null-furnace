@@ -1,0 +1,20 @@
+#Anzeigename im Spiel
+displayName: "Skillable Turret: Flux Protocol"
+
+#interner Name (Praefix aller Block- und Sprite-Namen)
+name: "flux-protocol"
+
+author: "Bennowan"
+
+#voll qualifizierte Hauptklasse
+main: "skillable.SkillableMod"
+
+description: "Flux-Energienetz, freie Materialsynthese und anpassbare High-Tech-Superwaffe. Strom wird ueber Konverter in instabilen, nicht speicherbaren Flux umgewandelt. Der Flux Fuser mischt bis zu 11 Zutaten (Items und Fluessigkeiten) zu eigenen, persistenten Materialien mit eigener Munitionswirkung; dazu Instabilitaet und Overclock-Schuss."
+
+version: 0.5.0
+
+#Mindest-Spielversion (getestet gegen v160.7)
+minGameVersion: 160.7
+
+#Java-Mod
+java: true

@@ -1,0 +1,73 @@
+# ===== Flux Protocol (Mindustry-Mod) - .gitignore =====
+# Regeln: siehe PROJECT_RULES.md. Nur Quellen, Assets, Doku und Skripte gehoeren ins Repository.
+
+# --- Build-Ergebnisse und Zwischenstaende ---
+/build/
+/out/
+/out-test/
+/bin/
+/target/
+.gradle/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+*.zip
+*.msav
+*.msch
+
+# --- Heruntergeladene Abhaengigkeiten / Testumgebungen (werden von den Skripten bezogen) ---
+/build/deps/
+/deps/
+/srv/
+/server/
+dependencies.jar
+server-release.jar
+
+# --- IDE und Editoren ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+.factorypath
+*.swp
+*~
+.fleet/
+
+# --- Betriebssystem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# --- Logs, Laufzeitdaten, temporaere Dateien ---
+*.log
+hs_err_pid*
+*.tmp
+*.bak
+*.orig
+/tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Lokale / private Konfiguration und Geheimnisse (niemals committen) ---
+local.properties
+gradle.properties
+*.local
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+secrets.*
+credentials.*
+*.token
+
+# --- Entwicklerwerkzeuge: erzeugte Vorschauen ---
+/build/icons.png
+/build/cooler.png

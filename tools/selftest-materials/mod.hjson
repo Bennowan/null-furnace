@@ -1,0 +1,9 @@
+displayName: "Flux Protocol Material-Selftest"
+name: "flux-matselftest"
+author: "Bennowan"
+main: "fluxselftest.MaterialSelfTest"
+description: "Nur fuer Entwicklung: Headless-Integrationstest der freien Materialsynthese."
+version: 0.1
+minGameVersion: 160.7
+java: true
+dependencies: ["flux-protocol"]
